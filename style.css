@@ -1,0 +1,14 @@
+#dropdown ul{
+	display: block; 
+}
+#dropdown ul li {
+	display: block;
+	background-color: #558c89;
+	color: #ffffff; 
+}
+#dropdown ul li ul {
+	display: none; 
+}
+#dropdown ul li:hover > ul { /*this is what the onclick event should do*/
+	display: block; 
+}
